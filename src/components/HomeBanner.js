@@ -23,14 +23,14 @@ const HomeBanner = () => {
               <div className="page-content">
                 <div className="v-center-box d-flex align-items-center">
                   <div className="home-text">
-                    <h6 className="dark-color theme-after">Hello, There</h6>
-                    <h1 className="dark-color blue-after">I'm Alexis Larten</h1>
+                    <h6 className="dark-color theme-after">Hola, a tod@s</h6>
+                    <h1 className="dark-color blue-after">¡Soy Mauricio Chara!</h1>
                     <p>
-                      WEB <TypingAnimation />
+                      Desarrollador <TypingAnimation />
                     </p>
                     <div className="btn-bar">
                       <a href="#" className="btn btn-theme">
-                        Download CV
+                        Descargar CV
                       </a>
                     </div>
                   </div>
