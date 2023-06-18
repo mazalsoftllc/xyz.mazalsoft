@@ -52,7 +52,7 @@ const Nav = () => {
     <nav className={`pages-nav ${toggle ? "pages-nav--open" : ""}`}>
       <div className="pages-nav__item">
         <a className="link link--page" onClick={() => changeNav("home", false)}>
-          Home
+          Inicio
         </a>
       </div>
       <div className="pages-nav__item">
@@ -60,7 +60,7 @@ const Nav = () => {
           className="link link--page"
           onClick={() => changeNav("about", false)}
         >
-          About Us
+          Sobre mí
         </a>
       </div>
       <div className="pages-nav__item">
@@ -68,7 +68,7 @@ const Nav = () => {
           className="link link--page"
           onClick={() => changeNav("resume", false)}
         >
-          Resume
+          Currículum
         </a>
       </div>
       <div className="pages-nav__item">
@@ -76,7 +76,7 @@ const Nav = () => {
           className="link link--page"
           onClick={() => changeNav("portfolio", false)}
         >
-          Portfolio
+          Portafolio
         </a>
       </div>
       <div className="pages-nav__item">
@@ -84,7 +84,7 @@ const Nav = () => {
           className="link link--page"
           onClick={() => changeNav("contact", false)}
         >
-          Contact Me
+          Contacto
         </a>
       </div>
     </nav>
