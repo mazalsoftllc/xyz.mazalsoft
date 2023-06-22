@@ -15,7 +15,7 @@ const HomeBanner = () => {
         <div className="row no-gutters full-screen">
           <div className="col-lg-3 col-xl-4 blue-bg">
             <div className="d-flex align-items-end home-user-avtar v-center-box">
-              <img src="static/img/user.png" title alt />
+              <img src="static/img/title-2.png" title alt />
             </div>
           </div>
           <div className="col-lg-9 col-xl-8">
@@ -29,29 +29,29 @@ const HomeBanner = () => {
                       Desarrollador <TypingAnimation />
                     </p>
                     <div className="btn-bar">
-                      <a href="#" className="btn btn-theme">
-                        Descargar CV
+                      <a href="https://www.udemy.com/user/edgar-mauricio-chara-hurtado/" className="btn btn-theme">
+                      ¡Es hora de aprender!
                       </a>
                     </div>
                   </div>
                   <ul className="social-icons">
                     <li>
-                      <a className="facebook" href="#">
+                      <a className="facebook" href="https://www.facebook.com/mazalsoftllc">
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>{" "}
                     <li>
-                      <a className="twitter" href="#">
+                      <a className="twitter" href="https://www.twitter.com/mazalsoftllc">
                         <i className="fab fa-twitter" />
                       </a>
                     </li>{" "}
                     <li>
-                      <a className="google" href="#">
-                        <i className="fab fa-google-plus-g" />
+                      <a className="google" href="https://www.instagram.com/mazalsoftllc">
+                        <i className="fab fa-instagram" />
                       </a>
                     </li>{" "}
                     <li>
-                      <a className="linkedin" href="#">
+                      <a className="linkedin" href="https://www.linkedin.com/in/mazalsoft">
                         <i className="fab fa-linkedin-in" />
                       </a>
                     </li>

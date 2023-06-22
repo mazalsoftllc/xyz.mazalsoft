@@ -250,7 +250,7 @@ Mi educación en fundamentos de administración comprendió los principios bási
         <div className="row">
           
         <div className="btn-bar">
-            <a href="#" className="btn btn-theme">
+            <a href="https://www.linkedin.com/in/mazalsoft" className="btn btn-theme">
                   Descargar CV
             </a>
         </div>

@@ -77,8 +77,8 @@ Soy un desarrollador de complementos con mucha experiencia, especializado en cre
           </div>{" "}
           {/* row */}
           <div className="btn-bar">
-            <a href="#" className="btn btn-theme">
-            Mi tienda virtual
+            <a href="https://www.udemy.com/user/edgar-mauricio-chara-hurtado/" className="btn btn-theme">
+            Academia de Mazalsoft
             </a>
           </div>
         </div>
@@ -95,7 +95,7 @@ Soy un desarrollador de complementos con mucha experiencia, especializado en cre
             <div className="counter-col counter-box">
               <div className="counter-data" data-count={375}>
                 <i className="theme-color ti-comments-smiley" />
-                <div className="count dark-color"><a href="#" className="">¡Vamos a chatear!</a></div>
+                <div className="count dark-color"><a href="https://api.whatsapp.com/send/?phone=573153774638&text=Hola%2c+Mazalsoft+%c2%a1Deseo+m%c3%a1s+informaci%c3%b3n!" className="">¡Vamos a chatear!</a></div>
                 <h6>+57 3153774638</h6>
               </div>
             </div>
@@ -105,7 +105,7 @@ Soy un desarrollador de complementos con mucha experiencia, especializado en cre
             <div className="counter-col counter-box">
               <div className="counter-data" data-count={375}>
                 <i className="theme-color ti-video-clapper" />
-                <div className="count dark-color"><a href="#" className="">¡Es hora de aprender!</a></div>
+                <div className="count dark-color"><a href="https://www.udemy.com/user/edgar-mauricio-chara-hurtado/" className="">¡Es hora de aprender!</a></div>
                 <h6>Membresía</h6>
               </div>
             </div>
@@ -115,7 +115,7 @@ Soy un desarrollador de complementos con mucha experiencia, especializado en cre
             <div className="counter-col counter-box">
               <div className="counter-data" data-count={375}>
                 <i className="theme-color ti-youtube" />
-                <div className="count dark-color"><a href="#" className="">¡Aprende en Youtube!</a></div>
+                <div className="count dark-color"><a href="https://www.youtube.com/@mazalsoftllc" className="">¡Aprende en Youtube!</a></div>
                 <h6>Suscríbete a mi canal</h6>
               </div>
             </div>
@@ -125,7 +125,7 @@ Soy un desarrollador de complementos con mucha experiencia, especializado en cre
             <div className="counter-col counter-box">
               <div className="counter-data" data-count={375}>
                 <i className="theme-color ti-twitter" />
-                <div className="count dark-color"><a href="#" className="">¡Sigue mis Tweets!</a></div>
+                <div className="count dark-color"><a href="https://www.twitter.com/mazalsoftllc" className="">¡Sigue mis Tweets!</a></div>
                 <h6>Sígueme en Twitter</h6>
               </div>
             </div>

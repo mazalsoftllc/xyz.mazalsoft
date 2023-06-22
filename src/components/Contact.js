@@ -21,10 +21,10 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_w62fybo", // service id
+          "template_9matb48", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "yd4i8uPi2Gn6tskaP" // public api
         )
         .then(
           (response) => {
@@ -45,14 +45,14 @@ const Contact = () => {
   return (
     <SectionContainer
       name={"contact"}
-      title="CONTACT ME"
-      subTitle={"GET IN TOUCH"}
-      leftImage="static/img/title-4.jpg"
+      title="CONTACTO"
+      subTitle={"¡Cotizar es gratis!"}
+      leftImage="static/img/title-4.png"
     >
       <div className="row">
         <div className="col-lg-12 m-30px-b sm-m-15px-b">
           <div className="contact-form">
-            <h4 className="dark-color font-alt m-20px-b">Say Something</h4>
+            <h4 className="dark-color font-alt m-20px-b">¡Vamos a chatear!</h4>
             <form className="contactform" onSubmit={(e) => onSubmit(e)}>
               <div className="row">
                 <div className="col-md-6">
@@ -63,7 +63,7 @@ const Contact = () => {
                       onChange={(e) => onChange(e)}
                       value={name}
                       type="text"
-                      placeholder="Name"
+                      placeholder="Nombre"
                       className="validate form-control"
                       required
                     />
@@ -89,7 +89,7 @@ const Contact = () => {
                   <div className="form-group">
                     <textarea
                       id="message"
-                      placeholder="Your Comment"
+                      placeholder="¿Cúal es tu mensaje?"
                       name="message"
                       onChange={(e) => onChange(e)}
                       value={message}
@@ -103,7 +103,7 @@ const Contact = () => {
                   <div className="send">
                     <button className="btn btn-theme" type="submit">
                       {" "}
-                      send message
+                      Enviar el mensaje
                     </button>
                   </div>
                   <span
@@ -111,7 +111,7 @@ const Contact = () => {
                     className="text-success mt-3"
                     style={{ display: success ? "block" : "none" }}
                   >
-                    Message Sent Successfully
+                    Mensaje enviado con éxito
                   </span>
                 </div>
               </div>
@@ -124,30 +124,29 @@ const Contact = () => {
         <div className="col-md-4 m-15px-tb">
           <div className="contact-info">
             <i className="theme-color ti-location-pin" />
-            <h6 className="dark-color font-alt">Our Address</h6>
-            <p>123 Stree New York City , USA 750065.</p>
+            <h6 className="dark-color font-alt">País</h6>
+            <p>Colombia.</p>
           </div>
         </div>
         <div className="col-md-4 m-15px-tb">
           <div className="contact-info">
             <i className="theme-color ti-mobile" />
-            <h6 className="dark-color font-alt">Our Phone</h6>
+            <h6 className="dark-color font-alt">Nº móvil</h6>
             <p>
-              Office: +004 444 444
+              +57 315 377 4638
               <br />
-              Office: +004 444 444
-              <br />
+              
             </p>
           </div>
         </div>
         <div className="col-md-4 m-15px-tb sm-m-0px-b">
           <div className="contact-info">
             <i className="theme-color ti-email" />
-            <h6 className="dark-color font-alt">Our Email</h6>
+            <h6 className="dark-color font-alt">E-mail</h6>
             <p>
-              info@domain.com
+              info@mazalsoft.xyz
               <br />
-              contact@domain.com
+             
             </p>
           </div>
         </div>

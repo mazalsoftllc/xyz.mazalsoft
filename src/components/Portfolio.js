@@ -62,23 +62,23 @@ const Portfolio = () => {
               Todo
             </li>{" "}
             <li
-              className={`${activeBtn("photoshop")} theme-after`}
-              onClick={handleFilterKeyChange("photoshop")}
-              data-filter=".photoshop"
+              className={`${activeBtn("desktop-apps")} theme-after`}
+              onClick={handleFilterKeyChange("desktop-apps")}
+              data-filter=".desktop-apps"
             >
               Apps de escritorio
             </li>{" "}
             <li
-              className={`${activeBtn("website")} theme-after`}
-              onClick={handleFilterKeyChange("website")}
-              data-filter=".website"
+              className={`${activeBtn("mobile-apps")} theme-after`}
+              onClick={handleFilterKeyChange("mobile-apps")}
+              data-filter=".mobile-apps"
             >
               Apps móviles
             </li>{" "}
             <li
-              className={`${activeBtn("apps")} theme-after`}
-              onClick={handleFilterKeyChange("apps")}
-              data-filter=".apps"
+              className={`${activeBtn("audiovisual")} theme-after`}
+              onClick={handleFilterKeyChange("audiovisual")}
+              data-filter=".audiovisual"
             >
               Audiovisual
             </li>
@@ -106,7 +106,7 @@ const Portfolio = () => {
                   <div className="hover">
                     <div className="action-btn">
                       <a
-                        href="http://www.youtube.com/watch?v=0O2aH4XLbto"
+                        href="https://youtu.be/pCXSybZkcOE"
                         className="popup-video theme-color"
                       >
                         <i className="fa fa-play" />
@@ -129,6 +129,45 @@ const Portfolio = () => {
                 <div className="portfolio-info">
                   <h5>Mazalsoft</h5>
                   <span>App web mazalsoft.xyz</span>
+                </div>
+              </div>{" "}
+              {/* Portfolio */}
+            </li>{" "}
+            {/* col */}  
+
+
+            <li className="portfolio-item audiovisual">
+              <div className="portfolio-col portfolio-hover-01">
+                <div className="portfolio-img">
+                  <a href="#">
+                    <img src="static/img/portfolio-academia-appgyver.png" title alt />
+                  </a>
+                  <div className="hover">
+                    <div className="action-btn">
+                      <a
+                        href="https://youtu.be/pCXSybZkcOE"
+                        className="popup-video theme-color"
+                      >
+                        <i className="fa fa-play" />
+                      </a>
+                      <a
+                        className="lightbox-gallery theme-color"
+                        href="static/img/portfolio-academia-appgyver.png"
+                        title="Lightbox gallery image title..."
+                      >
+                        <i className="fas fa-expand" />
+                      </a>
+                      <a href="https://www.udemy.com/user/edgar-mauricio-chara-hurtado/" className="theme-color">
+                        <i className="fa fa-link" />
+                      </a>
+                    </div>{" "}
+                    {/* Video Btn */}
+                  </div>{" "}
+                  {/* Hover */}
+                </div>
+                <div className="portfolio-info">
+                  <h5>Academia de Mazalsoft</h5>
+                  <span>Curso de AppGyver en español</span>
                 </div>
               </div>{" "}
               {/* Portfolio */}
