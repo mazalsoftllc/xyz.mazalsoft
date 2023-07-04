@@ -172,6 +172,44 @@ const Portfolio = () => {
               </div>{" "}
               {/* Portfolio */}
             </li>{" "}
+            {/* col */} 
+
+            <li className="portfolio-item components">
+              <div className="portfolio-col portfolio-hover-01">
+                <div className="portfolio-img">
+                  <a href="#">
+                    <img src="static/img/portfolio-2.jpg" title alt />
+                  </a>
+                  <div className="hover">
+                    <div className="action-btn">
+                      <a
+                        href="https://www.youtube.com/watch?v=pCXSybZkcOE"
+                        className="popup-video theme-color"
+                      >
+                        <i className="fa fa-play" />
+                      </a>
+                      <a
+                        className="lightbox-gallery theme-color"
+                        href="static/img/portfolio-2.jpg"
+                        title="Lightbox gallery image title..."
+                      >
+                        <i className="fas fa-expand" />
+                      </a>
+                      <a href="https://www.happyonline.click" className="theme-color">
+                        <i className="fa fa-link" />
+                      </a>
+                    </div>{" "}
+                    {/* Video Btn */}
+                  </div>{" "}
+                  {/* Hover */}
+                </div>
+                <div className="portfolio-info">
+                  <h5>Happy Online</h5>
+                  <span>Instructor virtual</span>
+                </div>
+              </div>{" "}
+              {/* Portfolio */}
+            </li>{" "}
             {/* col */}  
           
           </ul>{" "}
